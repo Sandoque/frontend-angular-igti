@@ -10,4 +10,4 @@
 - [ ] Aula 7 - Comunicação Entre Componentes<br />
 - [ ] Aula 8 - Estilização de Componentes<br />
 
-### Trabalho Prático do Módulo 2
+- [ ] **Trabalho Prático do Módulo 2**
