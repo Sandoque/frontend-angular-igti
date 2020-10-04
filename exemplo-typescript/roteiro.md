@@ -1,0 +1,10 @@
+- Etensão .ts
+- Javascript é Typescript
+- Declações de tipo
+  - Tipos primitivos
+  - O tipo any
+- Inferência de tipos
+- Objetos
+- Interfaces
+- Compatibilidade de tipos
+- Classes
