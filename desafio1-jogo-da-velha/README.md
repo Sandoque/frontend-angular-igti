@@ -8,8 +8,8 @@
   - Indicação do vencedor (quando acabar a partida)
   - Botão para reiniciar a partida
   - Tabuleiro
-- [ ] Criar propriedades para armazenar o estado do jogo
-- [ ] Exbir estado na interface usando data-binding
+- [x] Criar propriedades para armazenar o estado do jogo
+- [x] Exbir estado na interface usando data-binding
 - [ ] Tratar evento click na célula
   - Adicionar jogada no tabuleiro ( se a célula estiver vazia e o jogo não acabou)
   - Verificar se o jogador atual ganhou
