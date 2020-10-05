@@ -2,8 +2,8 @@
 
 ====================================
 
-- [ ] Criar componente ticTacToe
-- [ ] Criar porotótipo da interface com:
+- [v] Criar componente ticTacToe
+- [v] Criar porotótipo da interface com:
   - Indicação do jogador atual
   - Indicação do vencedor (quando acabar a partida)
   - Botão para reiniciar a partida
