@@ -1,0 +1,17 @@
+<h2>{{ titulo }}</h2>
+<div *ngIf="!fotos.length">Nenhuma foto</div>
+<ng-container *ngIf="fotos.length">
+  <div class="fotos">
+    <ng-container *ngFor="let foto of fotos; let i = index">
+      <img [src]="foto" [style.opacity]="i === fotoAtual ? 1 : 0" />
+    </ng-container>
+  </div>
+  <div>
+    <button [disabled]="fotoAtual == 0" (click)="voltaParaAnterior()">
+      &lt;
+    </button>
+    <button [disabled]="estaNaUltimaFoto()" (click)="mudaParaProxima()">
+      &gt;
+    </button>
+  </div>
+</ng-container>
