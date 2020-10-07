@@ -3,14 +3,17 @@
 <ng-container *ngIf="fotos.length">
   <div class="fotos">
     <ng-container *ngFor="let foto of fotos; let i = index">
-      <img [src]="foto" [style.opacity]="i === fotoAtual ? 1 : 0" />
+      <img *ngIf="i === fotoAtual" [src]="foto" />
     </ng-container>
   </div>
   <div>
     <button [disabled]="fotoAtual == 0" (click)="voltaParaAnterior()">
       &lt;
     </button>
-    <button [disabled]="estaNaUltimaFoto()" (click)="mudaParaProxima()">
+    <button
+      [disabled]="fotoAtual === this.fotos.length - 1"
+      (click)="mudaParaProxima()"
+    >
       &gt;
     </button>
   </div>

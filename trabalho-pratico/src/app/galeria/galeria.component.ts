@@ -19,6 +19,6 @@ export class GaleriaComponent {
   }
 
   estaNaUltimaFoto() {
-    this.fotoAtual == this.fotos.length - 1;
+    this.fotoAtual === this.fotos.length - 1;
   }
 }

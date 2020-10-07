@@ -3,14 +3,14 @@
 }
 img {
   max-height: 500px;
-  transition: opacity 500ms;
-  position: absolute;
+  /* transition: opacity 200ms; */
+  /* position: absolute; */
   top: 0;
   right: 0;
   left: 0;
   margin: auto;
 }
 .fotos {
-  position: relative;
+  /* position: relative; */
   height: 500px;
 }
